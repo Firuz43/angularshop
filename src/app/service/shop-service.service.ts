@@ -6,6 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class ShopServiceService {
 
+  //There is some problem with httpclient
   constructor(private http: HttpClient) { }
 
 
