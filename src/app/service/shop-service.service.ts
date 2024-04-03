@@ -10,6 +10,7 @@ export class ShopServiceService {
   constructor(private http: HttpClient) { }
 
 
+  //fetching data from database
   fetchData() {
     return this.http.get("http://localhost:8484/api/findall")
   }
