@@ -6,13 +6,14 @@ import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    // Declare any components, directives, or pipes if necessary
+    // Declare any components, directives, or pipes if necessary//
   ],
   imports: [
     CommonModule,
     AppRoutingModule,
     HttpClientModule, // Include HttpClientModule in imports array
     FormsModule,
+    
   ],
 })
 export class AppModule { }
