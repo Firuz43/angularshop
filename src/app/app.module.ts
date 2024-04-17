@@ -12,7 +12,7 @@ import { FormsModule } from '@angular/forms';
     CommonModule,
     AppRoutingModule,
     HttpClientModule, // Include HttpClientModule in imports array///
-    FormsModule,//something wrong with routes
+    FormsModule,//something wrong with routes sss
     
   ],
 })
